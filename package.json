@@ -1,0 +1,22 @@
+{
+  "name": "myeslint",
+  "version": "0.1.0",
+  "description": "eslint 原理实现",
+  "main": "index.js",
+  "bin": {
+    "myeslint": "./bin/myeslint.js"
+  },
+  "scripts": {
+    "test": "node ./bin/myeslint.js"
+  },
+  "keywords": [
+    "eslint",
+    "原理"
+  ],
+  "author": "asuishi",
+  "license": "ISC",
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "estraverse": "^4.2.0"
+  }
+}
