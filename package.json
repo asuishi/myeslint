@@ -1,6 +1,6 @@
 {
   "name": "myeslint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eslint 原理实现",
   "main": "./lib/index.js",
   "bin": {
