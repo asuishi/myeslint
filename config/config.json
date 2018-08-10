@@ -1,6 +1,8 @@
 {
     "rules": {
         "no-with": 1,
-        "brace-style": 1
+        "brace-style": 1,
+        "eqeqeq": 1,
+        "no-empty": 1
     }
 }
