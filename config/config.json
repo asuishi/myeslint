@@ -1,5 +1,6 @@
 {
     "rules": {
-        "no-with": 1
+        "no-with": 1,
+        "brace-style": 1
     }
 }
