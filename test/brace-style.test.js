@@ -12,7 +12,9 @@ const myeslint = require('../lib/myeslint')
 //------------------------------------------------------------------------------
 // Tests
 //------------------------------------------------------------------------------
-
+beforeEach(() => {
+    myeslint.reset()
+})
 test(`test "${RULE_ID}" function  with error`, () => {
     const code = "function f() \n {}"
     const config = { rules: {} };
